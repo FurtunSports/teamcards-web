@@ -1,0 +1,37 @@
+{
+  "name": "teams",
+  "version": "1.0.0",
+  "description": "My delightful Nuxt.js project",
+  "author": "Ilva Iskurti",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "add": "^2.0.6",
+    "consola": "^2.11.3",
+    "cross-env": "^5.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.12.2",
+    "nuxt-fontawesome": "^0.4.0",
+    "sass-loader": "^9.0.0",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "nodemon": "^1.18.9"
+  }
+}
