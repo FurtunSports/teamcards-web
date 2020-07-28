@@ -11,8 +11,8 @@ import AppFooter from "../components/AppFooter";
 export default {
   components: {
     AppHeader,
-    AppFooter
-  }
+    AppFooter,
+  },
 };
 </script>
 
@@ -30,25 +30,8 @@ export default {
   color: black;
 }
 
-/* a {
-  color: #666;
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  font-size: 20px;
-}
-
-li {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .container {
   overflow: hidden;
   background: #ffffff;
-  /* min-height: 100vh; */
 }
 </style>
